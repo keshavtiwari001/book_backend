@@ -11,7 +11,7 @@ connectDB()
 
 // Routing 
 app.get('/', (req, res) => {
-    res.send("Hello, it's psiBorg books backend")
+    res.send("Hello, it's books backend! Type books next to the url")
 })
 const bookRoute = require('./routes/bookRoute')
 app.use('/books', bookRoute)
